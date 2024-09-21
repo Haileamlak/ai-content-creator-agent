@@ -21,7 +21,7 @@ This project is an AI-driven content creation and social media management system
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/haileamlak/ai-content-creator.git
+   git clone https://github.com/haileamlak/ai-content-creator-agent.git
    cd ai-content-creator-agent
    ```
 
