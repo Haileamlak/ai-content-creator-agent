@@ -1,0 +1,7 @@
+.DEFAULT_GOAL := run 
+
+run: export_key
+	go run cmd/api/maing.go
+
+export_key: 
+	$env:GOOGLE_APPLICATION_CREDENTIALS="internal/infrastructure/config/service-account-key.json"
