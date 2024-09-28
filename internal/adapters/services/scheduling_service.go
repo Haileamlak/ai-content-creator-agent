@@ -26,7 +26,7 @@ func NewScheduleService() *ScheduleService {
 func (ss *ScheduleService) ScheduleJob(uri string, name string) error {
 	// Define the job
 	req := &schedulerpb.CreateJobRequest{
-		Parent: "projects/parabolic-hook-419323/locations/us-central1",
+		Parent: "projects/<your-project-id>/locations/us-central1",
 		Job: &schedulerpb.Job{
 			Target: &schedulerpb.Job_HttpTarget{
 				HttpTarget: &schedulerpb.HttpTarget{

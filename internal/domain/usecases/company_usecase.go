@@ -26,12 +26,12 @@ func (uc *companyUsecase) RegisterCompany(company *entities.Company) error {
 	}
 
 	// schedule a job to post content
-	// uri := "https://content-creator-us-central1-parabolic-hook-419323.run.app" + "/post-content/" + company.ID
-	// name := "post-content-" + company.ID
-	// err = uc.Scheduler.ScheduleJob(uri, name)
-	// if err != nil {
-	// 	return err
-	// }
+	uri := "<your-backend-server-url>" + "/post-content/" + company.ID
+	name := "post-content-" + company.ID
+	err = uc.Scheduler.ScheduleJob(uri, name)
+	if err != nil {
+		return err
+	}
 
 	return nil
 }
