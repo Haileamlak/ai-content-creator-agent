@@ -1,6 +1,5 @@
 # AI Content Creator Agent
 
-**Description**  
 This project is an AI-driven content creation and social media management system designed to automate tasks like writing posts, managing interactions, and performing research. The system integrates with social media platforms to post, respond to comments, and analyze engagement trends, all while leveraging AI for personalized, high-quality content generation.
 
 ## Features
@@ -11,8 +10,8 @@ This project is an AI-driven content creation and social media management system
 - Scheduled posting and interaction using **Google Cloud Scheduler**
 
 ## Technologies
-- **Backend:** Golang
-- **APIs:** Gemini, Twitter, Facebook, News API
+- **Backend:** Golang, Gin
+- **APIs:** Gemini, Twitter, Graph(Facebook), News API
 - **Database:** Google Cloud Firestore
 - **Scheduling:** Google Cloud Scheduler
 - **Cloud Platform:** Google Cloud Project (GCP)
@@ -46,6 +45,3 @@ This project is an AI-driven content creation and social media management system
 
 ## Contributing
 Feel free to contribute by opening a pull request or submitting an issue.
-
-## License
-This project is licensed is not licensed under any type of License.
